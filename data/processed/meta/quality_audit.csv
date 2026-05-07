@@ -1,0 +1,10 @@
+﻿check,severity,sample,detail
+dirty_label,medium,data/raw/GC10-DET/4/img_02_4406772100_00175.jpg,原始标签未知或清洗后无有效标签，已在清洗阶段删除。
+metadata_mismatch,medium,data/processed/meta/raw_annotation_summary.csv,88 条 XML 需要通过文件名回补图片路径。
+large_or_loose_box,low,data/processed/images/train/01530_rotate.jpg,waist_folding 标注框面积占比 0.474，建议人工复查边界。
+edge_touching_box,low,data/processed/images/train/00004.jpg,welding_line 标注框贴近输出图边界，需复查缺陷是否被截断。
+edge_touching_box,low,data/processed/images/train/00006.jpg,crescent_gap 标注框贴近输出图边界，需复查缺陷是否被截断。
+edge_touching_box,low,data/processed/images/test/00008.jpg,crease 标注框贴近输出图边界，需复查缺陷是否被截断。
+edge_touching_box,low,data/processed/images/train/00010.jpg,welding_line 标注框贴近输出图边界，需复查缺陷是否被截断。
+edge_touching_box,low,data/processed/images/val/00019.jpg,welding_line 标注框贴近输出图边界，需复查缺陷是否被截断。
+shortcut_feature,fixed,data/processed/images/,处理后文件名不保留原始类别目录或采集式命名，所有输出图统一为 1024x1024。

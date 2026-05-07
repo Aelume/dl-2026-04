@@ -1,0 +1,4 @@
+﻿split,image_count,annotation_count,avg_annotations_per_image
+train,2980,4540,1.523
+val,338,537,1.589
+test,370,644,1.741

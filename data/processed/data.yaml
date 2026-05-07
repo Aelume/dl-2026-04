@@ -1,0 +1,16 @@
+path: D:/code/qimeng/qimengdl-04/dl-2026-04/data/processed
+train: images/train
+val: images/val
+test: images/test
+nc: 10
+names:
+  0: punching_hole
+  1: welding_line
+  2: crescent_gap
+  3: water_spot
+  4: oil_spot
+  5: silk_spot
+  6: inclusion
+  7: rolled_pit
+  8: crease
+  9: waist_folding

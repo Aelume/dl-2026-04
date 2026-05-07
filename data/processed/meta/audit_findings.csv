@@ -1,0 +1,11 @@
+﻿check,severity,sample_a,sample_b,detail,sample
+leakage,pass,,,未发现跨最终 train/val/test 的完全重复、同源近似重复或采集序列泄漏。,
+dirty_label,medium,,,原始标签未知或清洗后无有效标签，已在清洗阶段删除。,data/raw/GC10-DET/4/img_02_4406772100_00175.jpg
+metadata_mismatch,medium,,,88 条 XML 需要通过文件名回补图片路径。,data/processed/meta/raw_annotation_summary.csv
+large_or_loose_box,low,,,waist_folding 标注框面积占比 0.474，建议人工复查边界。,data/processed/images/train/01530_rotate.jpg
+edge_touching_box,low,,,welding_line 标注框贴近输出图边界，需复查缺陷是否被截断。,data/processed/images/train/00004.jpg
+edge_touching_box,low,,,crescent_gap 标注框贴近输出图边界，需复查缺陷是否被截断。,data/processed/images/train/00006.jpg
+edge_touching_box,low,,,crease 标注框贴近输出图边界，需复查缺陷是否被截断。,data/processed/images/test/00008.jpg
+edge_touching_box,low,,,welding_line 标注框贴近输出图边界，需复查缺陷是否被截断。,data/processed/images/train/00010.jpg
+edge_touching_box,low,,,welding_line 标注框贴近输出图边界，需复查缺陷是否被截断。,data/processed/images/val/00019.jpg
+shortcut_feature,fixed,,,处理后文件名不保留原始类别目录或采集式命名，所有输出图统一为 1024x1024。,data/processed/images/

@@ -1,0 +1,62 @@
+{
+  "raw_summary": {
+    "raw_image_files": 2312,
+    "raw_xml_files": 2294,
+    "raw_xml_records_with_image": 2294,
+    "raw_unannotated_image_files_estimate": 18,
+    "raw_object_count": 3564,
+    "raw_class_counter": {
+      "10_yaozhe": 12,
+      "10_yaozhed": 131,
+      "1_chongkong": 329,
+      "2_hanfeng": 513,
+      "3_yueyawan": 265,
+      "4_shuiban": 354,
+      "5_youban": 569,
+      "6_siban": 884,
+      "7_yiwu": 347,
+      "8_yahen": 85,
+      "9_zhehen": 74,
+      "d": 1
+    },
+    "xml_parse_errors": [],
+    "match_counter": {
+      "exact_folder_filename": 2206,
+      "filename_unique_folder_mismatch": 88
+    },
+    "duplicate_image_basenames": 12
+  },
+  "raw_annotation_rows": 3566,
+  "stage_counter": {
+    "records_after_corrupt_check": 2294,
+    "records_removed_exact_duplicate": 0,
+    "records_after_duplicate_check": 2201,
+    "boxes_removed_unknown_class": 1,
+    "records_after_annotation_filter": 2199,
+    "boxes_after_annotation_filter": 3457
+  },
+  "augmentation": {
+    "methods": [
+      "flip",
+      "light",
+      "scale",
+      "rotate"
+    ],
+    "skipped": {
+      "scale": 2
+    },
+    "created_images": 1489
+  },
+  "validation": {
+    "counts": {
+      "train_images": 2980,
+      "train_labels": 2980,
+      "val_images": 338,
+      "val_labels": 338,
+      "test_images": 370,
+      "test_labels": 370
+    },
+    "problem_count": 0,
+    "problems": []
+  }
+}

@@ -1,0 +1,12 @@
+{
+  "counts": {
+    "train_images": 2980,
+    "train_labels": 2980,
+    "val_images": 338,
+    "val_labels": 338,
+    "test_images": 370,
+    "test_labels": 370
+  },
+  "problem_count": 0,
+  "problems": []
+}

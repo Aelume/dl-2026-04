@@ -1,0 +1,4 @@
+﻿size_bucket,annotation_count,threshold
+small,477,area < 32^2 px
+medium,1647,32^2 <= area < 96^2 px
+large,3597,area >= 96^2 px

@@ -1,0 +1,11 @@
+﻿class_id,class_name,class_name_cn,image_count,annotation_count,annotation_ratio
+0,punching_hole,冲孔,543,543,0.0949
+1,welding_line,焊缝,858,860,0.1503
+2,crescent_gap,月牙弯,443,445,0.0778
+3,water_spot,水斑,538,605,0.1058
+4,oil_spot,油斑,392,868,0.1517
+5,silk_spot,丝斑,1109,1377,0.2407
+6,inclusion,异物,313,524,0.0916
+7,rolled_pit,压痕,76,146,0.0255
+8,crease,折痕,85,118,0.0206
+9,waist_folding,腰折,229,235,0.0411

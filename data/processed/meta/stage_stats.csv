@@ -1,0 +1,7 @@
+﻿stage,image_count,annotation_count,note
+raw,2312,3564,原始图片文件与 VOC 标注框
+after_corrupt_check,2294,3564,完成图片可读性检查
+after_duplicate_check,2201,3564,删除完全重复与近似重复记录
+after_invalid_label_filter,2199,3457,删除未知、越界、零面积与过小标注
+after_square_transform,2199,3457,padding 为正方形并缩放到 1024
+after_train_augmentation,3688,5721,对符合条件的训练图生成增强样本

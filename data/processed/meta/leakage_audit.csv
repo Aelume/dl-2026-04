@@ -1,0 +1,2 @@
+﻿check,severity,sample_a,sample_b,detail
+leakage,pass,,,未发现跨最终 train/val/test 的完全重复、同源近似重复或采集序列泄漏。
